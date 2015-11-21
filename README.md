@@ -6,7 +6,7 @@ This repo is concerned with taking the raw  Human Activity Recognition database 
 This repo contains the following files
 
 * run_analysis.R - R script for performing the analysis
-* CodeBook.mb - code book that describes the variables, the data, and transformations that were performed to clean up the data
+* CodeBook.md - code book that describes the variables, the data, and transformations that were performed to clean up the data
  
 ## run_analysis.R
 R script that was used to transform the raw data to tidy data is given in this file. User needs to set two variables before running this code as follows,
@@ -14,5 +14,4 @@ R script that was used to transform the raw data to tidy data is given in this f
 * Download should be set to FALSE if the data set is already residing in a subdirectory of the working directory. If set to TRUE the code will download the raw data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 * Unzip_file should be set to FALSE if the data is already extracted from the zip file
 
-The transformations performed by the script is described in CodeBook.mb
-
+The transformations performed by the script is described in CodeBook.md
