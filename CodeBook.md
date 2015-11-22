@@ -161,3 +161,4 @@ Abbreviations of variable names
 
 “id” is and integer variable, “activity” is a factor type variable and all the other variables are numeric features.
 
+**Note** - Raw data were normalized and bounded within [-1,1]. Therefore the data does not conform to the units of the original signals.
